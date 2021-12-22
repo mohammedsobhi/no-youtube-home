@@ -1,0 +1,11 @@
+{
+  "name": "remove-youtube-home",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "manifest_version": 2,
+  "content_scripts": [ {
+    "matches": ["https://www.youtube.com/*"],
+    "js": ["script.js"],
+    "css": ["style.css"]
+  } ]
+}
